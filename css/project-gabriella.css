@@ -17,8 +17,9 @@ li a {
   display: inline;
   color: white;
   text-align: center;
-  padding: 12px 14px;
+  padding: 10px 12px;
   text-decoration: none;
+  font-weight: bold;
 }
 li a:hover {
   background-color: paleturquoise;
@@ -29,7 +30,7 @@ li a:hover {
   display: inline-block;
 }
 #navbar{
-  padding-top: 10px;
+  padding-top: 5px;
   width: 100vw;
   position: fixed;
   background-color: turquoise;
@@ -37,6 +38,8 @@ li a:hover {
 header{
   padding-left: 20px;
   color:white;
+  font-size: 10px;
+  font-weight: bold;
 }
 h1{
   margin-top: 60px;
@@ -44,7 +47,10 @@ h1{
 .navv{
   display: flex;
   justify-content: right;
-  padding-bottom: 12px;
+  padding-bottom: 8px;
+}
+.imghead{
+  padding: 0;
 }
 body{
   margin:0px;
