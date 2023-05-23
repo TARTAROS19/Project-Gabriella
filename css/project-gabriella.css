@@ -2,13 +2,11 @@
   font-family: helvetica, serif;
 }
 
-
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: black;
 }
 
 .navli {
@@ -16,12 +14,38 @@ ul {
 }
 
 li a {
-  display: block;
+  display: inline;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 12px 14px;
   text-decoration: none;
 }
 li a:hover {
-  background-color: lime;
+  background-color: paleturquoise;
+}
+
+}
+.child{
+  display: inline-block;
+}
+#navbar{
+  padding-top: 10px;
+  width: 100vw;
+  position: fixed;
+  background-color: turquoise;
+}
+header{
+  padding-left: 20px;
+  color:white;
+}
+h1{
+  margin-top: 60px;
+}
+.navv{
+  display: flex;
+  justify-content: right;
+  padding-bottom: 12px;
+}
+body{
+  margin:0px;
 }
